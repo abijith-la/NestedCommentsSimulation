@@ -12,3 +12,5 @@ In this approach each comment object has a list member in it. This list contains
 DICTIONARY TABLE AND ORDERED LIST
 
 In this approach we assign a unique (uuid) to each and every comment object. These IDs and comment object pairs are stored in a dictionary. The IDs alone are also stored in an ordered list. The order of this list ensures that all the comments are rendered in the correct hierarchical order. Each comment object stores its parent ID as a class member.
+
+![alt name](https://user-images.githubusercontent.com/87352664/190663704-95c9f101-6fcf-472e-b78f-91cf3d0f17bf.png)
